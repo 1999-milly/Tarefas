@@ -10,4 +10,7 @@ public class Vaca extends Animal{
     public void emitirSom(){
             System.out.println(this.getNome()+" emitiu som");
     }
+    public void mover(){
+        System.out.println(this.getNome()+" moveu-se");
+    }
 }

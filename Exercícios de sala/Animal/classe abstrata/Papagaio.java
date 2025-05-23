@@ -11,6 +11,8 @@ public class Papagaio extends Animal{
         System.out.println(this.getNome()+" emitiu som");
         }
     public void emitirSom(String frase){
-            System.out.println(this.getNome()+" emitiu a frase "+frase);
+            System.out.println(this.getNome()+" emitiu a frase: "+frase);
     }
-}
+    public void mover(){
+        System.out.println(this.getNome()+" moveu-se");
+}}

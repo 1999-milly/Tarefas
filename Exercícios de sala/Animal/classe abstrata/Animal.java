@@ -1,4 +1,4 @@
-public abstract  class Animal{
+public abstract class Animal{
     protected String nome;
 
     public Animal(String nome){
@@ -7,5 +7,8 @@ public abstract  class Animal{
     public String getNome(){
         return nome;
     }
-    public abstract void emitirSom();
+    public void emitirSom(){
+        System.out.println(this.getNome()+" emitiu um som");
+    }
+    public abstract void mover();
 }
